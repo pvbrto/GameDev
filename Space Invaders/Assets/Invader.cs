@@ -10,7 +10,7 @@ public class Invader : MonoBehaviour
     private float moveInterval = 0.9f;  // Tempo inicial entre movimentos
     private float minMoveInterval = 0.2f; // Velocidade mínima permitida
     private float speedDecreaseFactor = 0.9f; // Redução progressiva da velocidade
-    private float missileChance = 0.02f;
+    private float missileChance = 0.025f;
 
     public GameObject missilePrefab;
 
